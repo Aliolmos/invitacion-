@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Invitación · Inauguración Editorial Han-Ra</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="invitacion.css">
+
+</head>
+<body>
+
+  <div class="card" id="card">
+    <div class="frame">
+      <span class="corner tl"></span>
+      <span class="corner tr"></span>
+      <span class="corner bl"></span>
+      <span class="corner br"></span>
+    </div>
+
+    <!-- Cherry blossom branch, top right (denser, realistic style) -->
+    <svg class="botanical top-right" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+      <!-- branch -->
+      <path d="M215 10 C195 20 178 28 168 42 C156 58 150 72 138 82 C122 94 108 96 92 104 C78 111 68 118 58 130"
+            stroke="#7a5c3e" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M168 42 C176 38 186 36 196 34" stroke="#7a5c3e" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M138 82 C146 76 156 72 166 68" stroke="#7a5c3e" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M92 104 C98 96 106 90 116 86" stroke="#7a5c3e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <path d="M58 130 C50 136 42 140 32 142" stroke="#7a5c3e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+      <!-- petal shape reusable via paths, 5-petal flower builder -->
+      <!-- FLOWER 1 (top, near corner) -->
+      <g transform="translate(196,30) rotate(10) scale(1.05)">
+        <path d="M0,-12 C5,-8 6,-2 0,0 C-6,-2 -5,-8 0,-12 Z" fill="#f3cdd4"/>
+        <path d="M11,-6 C11,0 6,4 0,0 C1,-6 5,-10 11,-6 Z" fill="#eebfc8"/>
+        <path d="M11,7 C7,10 1,9 0,0 C6,0 11,2 11,7 Z" fill="#e7aab6"/>
+        <path d="M-1,12 C-6,10 -8,4 0,0 C-1,6 1,10 -1,12 Z" fill="#eebfc8"/>
+        <path d="M-11,5 C-12,-1 -7,-6 0,0 C-4,3 -8,6 -11,5 Z" fill="#f3cdd4"/>
+        <circle cx="0" cy="0" r="2.6" fill="#c98a72"/>
+      </g>
+      <!-- bud beside flower1 -->
+      <ellipse cx="182" cy="18" rx="4.5" ry="6.5" fill="#e7aab6" transform="rotate(-25 182 18)"/>
+
+      <!-- FLOWER 2 -->
+      <g transform="translate(160,20) rotate(-15) scale(0.85)">
+        <path d="M0,-12 C5,-8 6,-2 0,0 C-6,-2 -5,-8 0,-12 Z" fill="#f6dade"/>
+        <path d="M11,-6 C11,0 6,4 0,0 C1,-6 5,-10 11,-6 Z" fill="#f0c6cd"/>
+        <path d="M11,7 C7,10 1,9 0,0 C6,0 11,2 11,7 Z" fill="#e9b0ba"/>
+        <path d="M-1,12 C-6,10 -8,4 0,0 C-1,6 1,10 -1,12 Z" fill="#f0c6cd"/>
+        <path d="M-11,5 C-12,-1 -7,-6 0,0 C-4,3 -8,6 -11,5 Z" fill="#f6dade"/>
+        <circle cx="0" cy="0" r="2.4" fill="#c98a72"/>
+      </g>
+
+      <!-- FLOWER 3 (mid, larger, focal) -->
+      <g transform="translate(150,58) rotate(6) scale(1.3)">
+        <path d="M0,-12 C5,-8 6,-2 0,0 C-6,-2 -5,-8 0,-12 Z" fill="#f0c3cb"/>
+        <path d="M11,-6 C11,0 6,4 0,0 C1,-6 5,-10 11,-6 Z" fill="#ecb3bd"/>
+        <path d="M11,7 C7,10 1,9 0,0 C6,0 11,2 11,7 Z" fill="#e29ba8"/>
+        <path d="M-1,12 C-6,10 -8,4 0,0 C-1,6 1,10 -1,12 Z" fill="#ecb3bd"/>
+        <path d="M-11,5 C-12,-1 -7,-6 0,0 C-4,3 -8,6 -11,5 Z" fill="#f0c3cb"/>
+        <circle cx="0" cy="0" r="3" fill="#b97a63"/>
+        <circle cx="2" cy="-1" r="0.9" fill="#7a5c3e"/>
+        <circle cx="-1.5" cy="2" r="0.9" fill="#7a5c3e"/>
+      </g>
+
+      <!-- bud near flower3 -->
+      <ellipse cx="128" cy="70" rx="4" ry="6" fill="#e29ba8" transform="rotate(20 128 70)"/>
+
+      <!-- FLOWER 4 (lower, mid-small) -->
+      <g transform="translate(118,92) rotate(-8) scale(0.95)">
+        <path d="M0,-12 C5,-8 6,-2 0,0 C-6,-2 -5,-8 0,-12 Z" fill="#f3cdd4"/>
+        <path d="M11,-6 C11,0 6,4 0,0 C1,-6 5,-10 11,-6 Z" fill="#eebfc8"/>
+        <path d="M11,7 C7,10 1,9 0,0 C6,0 11,2 11,7 Z" fill="#e7aab6"/>
+        <path d="M-1,12 C-6,10 -8,4 0,0 C-1,6 1,10 -1,12 Z" fill="#eebfc8"/>
+        <path d="M-11,5 C-12,-1 -7,-6 0,0 C-4,3 -8,6 -11,5 Z" fill="#f3cdd4"/>
+        <circle cx="0" cy="0" r="2.6" fill="#c98a72"/>
+      </g>
+
+      <!-- FLOWER 5 (near end, small, partly open) -->
+      <g transform="translate(78,120) rotate(15) scale(0.75)">
+        <path d="M0,-12 C5,-8 6,-2 0,0 C-6,-2 -5,-8 0,-12 Z" fill="#f6dade"/>
+        <path d="M11,-6 C11,0 6,4 0,0 C1,-6 5,-10 11,-6 Z" fill="#f0c6cd"/>
+        <path d="M-1,12 C-6,10 -8,4 0,0 C-1,6 1,10 -1,12 Z" fill="#f0c6cd"/>
+        <path d="M-11,5 C-12,-1 -7,-6 0,0 C-4,3 -8,6 -11,5 Z" fill="#f6dade"/>
+        <circle cx="0" cy="0" r="2.2" fill="#c98a72"/>
+      </g>
+
+      <!-- small bud at branch end -->
+      <ellipse cx="46" cy="136" rx="3.5" ry="5.5" fill="#eebfc8" transform="rotate(30 46 136)"/>
+
+      <!-- leaves scattered along branch -->
+      <path d="M175 26 C182 20 190 20 195 25 C189 30 180 31 175 26 Z" fill="#7f8f5a"/>
+      <path d="M145 40 C153 34 162 35 167 41 C160 47 150 47 145 40 Z" fill="#6f7f4d" transform="rotate(10 156 40)"/>
+      <path d="M108 78 C116 72 125 73 130 79 C123 85 113 85 108 78 Z" fill="#7f8f5a" transform="rotate(-15 118 78)"/>
+      <path d="M132 100 C140 95 148 96 152 102 C146 107 136 107 132 100 Z" fill="#6f7f4d"/>
+      <path d="M60 132 C67 127 75 128 79 133 C73 138 64 138 60 132 Z" fill="#7f8f5a" transform="rotate(20 69 132)"/>
+
+      <!-- tiny falling petals -->
+      <path d="M40 60 C43 58 46 59 45 63 C42 64 39 63 40 60 Z" fill="#eebfc8" transform="rotate(30 42 61)"/>
+      <path d="M20 95 C23 93 26 94 25 98 C22 99 19 98 20 95 Z" fill="#e7aab6" transform="rotate(-20 22 96)"/>
+      <path d="M65 15 C68 13 71 14 70 18 C67 19 64 18 65 15 Z" fill="#f0c6cd" transform="rotate(50 67 16)"/>
+    </svg>
+
+    <div class="content">
+      <div class="eyebrow">Invitación</div>
+
+      <svg class="eyebrow-flower" viewBox="0 0 24 24" fill="none">
+        <g fill="#d98fa0">
+          <circle cx="12" cy="7" r="3.4"/>
+          <circle cx="18" cy="12" r="3.4"/>
+          <circle cx="12" cy="17" r="3.4"/>
+          <circle cx="6" cy="12" r="3.4"/>
+        </g>
+        <circle cx="12" cy="12" r="2.6" fill="#b89b6a"/>
+      </svg>
+
+      <h1 class="title">Inauguración</h1>
+      <div class="subtitle">de la editorial</div>
+
+      <div class="divider">
+        <span class="line left"></span>
+        <span class="star">✦</span>
+        <span class="line right"></span>
+      </div>
+
+      <div class="brand">
+        <img class="brand-logo" src="logo.png" alt="Han-Ra Editorial">
+      </div>
+
+      <div class="info-block">
+        <div class="info-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+            <rect x="3.5" y="5" width="17" height="16" rx="2"/>
+            <line x1="3.5" y1="9.5" x2="20.5" y2="9.5"/>
+            <line x1="8" y1="3" x2="8" y2="7"/>
+            <line x1="16" y1="3" x2="16" y2="7"/>
+            <circle cx="8" cy="14" r="0.9" fill="currentColor" stroke="none"/>
+            <circle cx="12" cy="14" r="0.9" fill="currentColor" stroke="none"/>
+            <circle cx="16" cy="14" r="0.9" fill="currentColor" stroke="none"/>
+          </svg>
+          <div class="date-text">4 de Julio</div>
+          <div class="time-text">15hs</div>
+        </div>
+
+        <div class="info-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+            <path d="M12 21c-4.2-4.4-7-7.9-7-11.5A7 7 0 0 1 19 9.5C19 13.1 16.2 16.6 12 21Z"/>
+            <circle cx="12" cy="9.5" r="2.3"/>
+          </svg>
+          <div class="address-text">Baradero 2184</div>
+
+          <div class="map-wrap">
+            <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.74509875227938!2d-64.16677032801975!3d-31.443825782134883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a30018fb3601%3A0x65fcfcc203ca2037!2sEditorial%20HAN-RA!5e0!3m2!1ses!2sus!4v1783000531276!5m2!1ses!2sus" ></iframe>
+             
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Falling petals turning to golden ash -->
+    <div class="petal-layer" id="petalLayer"></div>
+
+    <!-- Decoración inferior (imagen de líneas) -->
+    <img class="wave-bottom-img" src="lineas.png" alt="">
+
+  </div>
+
+  
+<script src="invitacion.js"></script>
+</body>
+</html>
